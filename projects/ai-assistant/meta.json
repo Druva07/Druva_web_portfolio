@@ -1,0 +1,19 @@
+{
+  "slug": "ai-assistant",
+  "index": 3,
+  "category": "AI/Software",
+  "title": "LYRA-Style Terminal Assistant",
+  "org": "Independent Project",
+  "type": "Developer Tool",
+  "tech": "Python · LLMs",
+  "date": "2025",
+  "summary": "Created an AI-powered terminal assistant to automate complex workflows and shell commands. Features context-aware suggestions and local execution capabilities.",
+  "highlights": ["Integrated with modern LLM APIs for natural language to shell command translation.", "Built robust error handling and safety confirmation prompts.", "Packaged as a simple CLI tool for daily use."],
+  "topics": ["Python", "AI Agents", "CLI"],
+  "links": {"repo": "https://github.com/yourusername/ai-terminal-assistant"},
+  "media": {
+    "images": [],
+    "video": [],
+    "docs": []
+  }
+}

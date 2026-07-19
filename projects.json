@@ -1,0 +1,89 @@
+[
+  {
+    "slug": "bzr4-tachometer",
+    "index": 1,
+    "category": "Embedded Systems",
+    "title": "BZR4 Tachometer PCB",
+    "org": "Formula Bharat",
+    "type": "Racecar Telemetry",
+    "tech": "CH32V003 \u00b7 Shift-Register LED",
+    "date": "2026",
+    "summary": "Designed and built a custom tachometer PCB for the BZR4 racecar using a CH32V003 microcontroller. It drives a shift-register LED array for real-time RPM visualization, improving driver feedback on the track.",
+    "highlights": [
+      "Custom PCB design and layout.",
+      "Optimized embedded C firmware for low-latency LED updates.",
+      "Integrated with CAN bus for vehicle telemetry."
+    ],
+    "topics": [
+      "PCB Design",
+      "CH32V003",
+      "Embedded C"
+    ],
+    "links": {
+      "repo": "https://github.com/yourusername/bzr4-tachometer"
+    },
+    "media": {
+      "images": [],
+      "video": [],
+      "docs": []
+    }
+  },
+  {
+    "slug": "ai-rover",
+    "index": 2,
+    "category": "Robotics",
+    "title": "AI Rover \u2014 Nav2 + YDLIDAR",
+    "org": "Independent Project",
+    "type": "Autonomous Vehicle",
+    "tech": "ROS2 \u00b7 Raspberry Pi 5 \u00b7 Nav2",
+    "date": "2025",
+    "summary": "Developed an autonomous rover capable of indoor navigation and obstacle avoidance using ROS2 Nav2. Integrated a YDLIDAR sensor for real-time SLAM and map generation.",
+    "highlights": [
+      "Configured Nav2 stack for differential drive kinematics.",
+      "Implemented YDLIDAR drivers for ROS2.",
+      "Achieved reliable point-to-point navigation in unstructured environments."
+    ],
+    "topics": [
+      "ROS2",
+      "SLAM",
+      "Path Planning"
+    ],
+    "links": {
+      "repo": "https://github.com/yourusername/ai-rover"
+    },
+    "media": {
+      "images": [],
+      "video": [],
+      "docs": []
+    }
+  },
+  {
+    "slug": "ai-assistant",
+    "index": 3,
+    "category": "AI/Software",
+    "title": "LYRA-Style Terminal Assistant",
+    "org": "Independent Project",
+    "type": "Developer Tool",
+    "tech": "Python \u00b7 LLMs",
+    "date": "2025",
+    "summary": "Created an AI-powered terminal assistant to automate complex workflows and shell commands. Features context-aware suggestions and local execution capabilities.",
+    "highlights": [
+      "Integrated with modern LLM APIs for natural language to shell command translation.",
+      "Built robust error handling and safety confirmation prompts.",
+      "Packaged as a simple CLI tool for daily use."
+    ],
+    "topics": [
+      "Python",
+      "AI Agents",
+      "CLI"
+    ],
+    "links": {
+      "repo": "https://github.com/yourusername/ai-terminal-assistant"
+    },
+    "media": {
+      "images": [],
+      "video": [],
+      "docs": []
+    }
+  }
+]

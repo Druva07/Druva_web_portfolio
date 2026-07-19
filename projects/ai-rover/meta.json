@@ -1,0 +1,19 @@
+{
+  "slug": "ai-rover",
+  "index": 2,
+  "category": "Robotics",
+  "title": "AI Rover — Nav2 + YDLIDAR",
+  "org": "Independent Project",
+  "type": "Autonomous Vehicle",
+  "tech": "ROS2 · Raspberry Pi 5 · Nav2",
+  "date": "2025",
+  "summary": "Developed an autonomous rover capable of indoor navigation and obstacle avoidance using ROS2 Nav2. Integrated a YDLIDAR sensor for real-time SLAM and map generation.",
+  "highlights": ["Configured Nav2 stack for differential drive kinematics.", "Implemented YDLIDAR drivers for ROS2.", "Achieved reliable point-to-point navigation in unstructured environments."],
+  "topics": ["ROS2", "SLAM", "Path Planning"],
+  "links": {"repo": "https://github.com/yourusername/ai-rover"},
+  "media": {
+    "images": [],
+    "video": [],
+    "docs": []
+  }
+}
