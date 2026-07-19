@@ -94,7 +94,6 @@ function renderProjects(projects, filterCategory) {
       <div class="project-content">
         <h2 class="project-title">${p.title}</h2>
         <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">[${p.tech}]</div>
-        <div class="project-desc">${p.description}</div>
         <p class="project-summary">${p.summary}</p>
         ${highlightsHtml ? `<ul class="project-highlights">${highlightsHtml}</ul>` : ''}
         ${topicsHtml ? `<div class="project-topics"><span class="label">TOPICS</span> ${topicsHtml}</div>` : ''}
