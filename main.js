@@ -79,8 +79,8 @@ function renderProjects(projects, filterCategory) {
     // Formatting links
     let linksHtml = '';
     if (p.links) {
-      if (p.links.repo) linksHtml += `<a href="${p.links.repo}" target="_blank">Repository</a>`;
-      if (p.links.demo) linksHtml += `<a href="${p.links.demo}" target="_blank">Live Demo</a>`;
+      if (p.links.repo) linksHtml += `<a href="${p.links.repo}" target="_blank">► GitHub Repository</a>`;
+      if (p.links.demo) linksHtml += `<a href="${p.links.demo}" target="_blank">► Live Demo</a>`;
     }
     
     article.innerHTML = `

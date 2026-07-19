@@ -154,7 +154,7 @@ a:hover {
 .pill {
   background: transparent;
   border: 1px solid var(--text-main);
-  border-radius: 50px;
+  border-radius: 0;
   padding: 0.4rem 1rem;
   font-family: var(--font-mono);
   font-size: 0.8rem;
@@ -198,6 +198,11 @@ a:hover {
   line-height: 1;
   flex-shrink: 0;
   width: 80px;
+  transition: color 0.3s ease;
+}
+
+.project-card:hover .project-number {
+  color: var(--accent-color);
 }
 
 .project-content {
@@ -281,7 +286,18 @@ a:hover {
 .project-links a {
   font-family: var(--font-mono);
   font-size: 0.85rem;
-  text-decoration: underline;
+  text-decoration: none;
+  border: 1px solid var(--text-main);
+  padding: 0.4rem 1rem;
+  color: var(--text-main);
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-links a:hover {
+  background: rgba(0,0,0,0.05);
 }
 
 /* Footer */
