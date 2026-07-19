@@ -7,6 +7,7 @@
   --font-display: 'Playfair Display', serif;
   --font-body: 'EB Garamond', serif;
   --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Inter', -apple-system, sans-serif;
 }
 
 * {
@@ -79,12 +80,19 @@ a:hover {
 }
 
 .nav-left {
-  font-family: var(--font-body);
-  font-weight: 400;
-  font-size: 1.1rem;
-  letter-spacing: 0.15em;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: normal;
   text-transform: uppercase;
   color: var(--text-main);
+}
+
+.nav-right {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
 }
 
 .hero {
@@ -118,10 +126,13 @@ a:hover {
 
 .contact-grid .label {
   color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .contact-grid .value {
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   font-size: 0.9rem;
 }
 
@@ -163,6 +174,9 @@ a:hover {
 }
 
 .filter-label {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.85rem;
   color: var(--text-main);
 }
 
@@ -176,12 +190,12 @@ a:hover {
   background: transparent;
   border: 1px solid var(--text-main);
   border-radius: 0;
-  padding: 0.4rem 1rem;
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
   color: var(--text-main);
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   gap: 0.5rem;
