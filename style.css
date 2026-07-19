@@ -79,8 +79,11 @@ a:hover {
 }
 
 .nav-left {
-  font-weight: 700;
-  font-size: 0.85rem;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   color: var(--text-main);
 }
 
@@ -98,14 +101,19 @@ a:hover {
 }
 
 /* Contact Grid */
+.contact-wrapper {
+  border-top: 1px solid rgba(0,0,0,0.2);
+  padding: 1.5rem 10vw;
+  width: 100%;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: auto 1fr auto 1fr auto 1fr;
   row-gap: 1.5rem;
   column-gap: 2rem;
   align-items: baseline;
-  margin-top: 3rem;
-  padding: 2rem 0;
+  max-width: 900px;
 }
 
 .contact-grid .label {
@@ -137,13 +145,13 @@ a:hover {
 .filter-bar-wrapper {
   position: sticky;
   top: 48px; /* aligns directly below top-nav */
-  background: rgba(242, 238, 227, 0.9);
+  background: rgba(242, 238, 227, 0.95);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   z-index: 90;
   padding: 1rem 10vw;
-  border-top: 1px solid rgba(0,0,0,0.1);
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
   margin-bottom: 4rem;
 }
 
@@ -325,7 +333,7 @@ a:hover {
   font-family: var(--font-display);
   font-style: italic;
   font-size: 1.5rem;
-  color: var(--accent-color);
+  color: var(--text-main);
   margin-bottom: 2rem;
 }
 
