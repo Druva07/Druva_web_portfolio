@@ -93,11 +93,11 @@ a:hover {
   padding: 1rem 10vw;
   position: sticky;
   top: 0;
-  background: rgba(242, 238, 227, 0.9);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: rgba(242, 238, 227, 0.6);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
   z-index: 100;
-  border-bottom: 1px solid rgba(0,0,0,0.15);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .nav-left {
@@ -177,13 +177,13 @@ a:hover {
 .filter-bar-wrapper {
   position: sticky;
   top: 48px; /* aligns directly below top-nav */
-  background: rgba(242, 238, 227, 0.95);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: rgba(242, 238, 227, 0.6);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
   z-index: 90;
   padding: 1rem 10vw;
-  border-top: 1px solid rgba(0,0,0,0.2);
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
   margin-bottom: 4rem;
 }
 
