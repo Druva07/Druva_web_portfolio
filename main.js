@@ -84,11 +84,17 @@ function renderProjects(projects, filterCategory) {
     }
     
     article.innerHTML = `
-      <div class="project-number">${idxStr}</div>
+      <div class="project-header">
+        <div class="project-number">${String(p.index).padStart(2, '0')}</div>
+        <div class="project-divider-short"></div>
+        <div class="project-meta">
+          <span class="project-category">${p.category}</span>
+        </div>
+      </div>
       <div class="project-content">
-        ${p.category ? `<div class="project-category">${p.category}</div>` : ''}
         <h2 class="project-title">${p.title}</h2>
-        <div class="project-meta">${metaLine}</div>
+        <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">[${p.tech}]</div>
+        <div class="project-desc">${p.description}</div>
         <p class="project-summary">${p.summary}</p>
         ${highlightsHtml ? `<ul class="project-highlights">${highlightsHtml}</ul>` : ''}
         ${topicsHtml ? `<div class="project-topics"><span class="label">TOPICS</span> ${topicsHtml}</div>` : ''}
