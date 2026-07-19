@@ -1,0 +1,29 @@
+{
+  "slug": "aria",
+  "index": 1,
+  "category": "AI/Software",
+  "title": "ARIA \u2014 AI Personal Assistant",
+  "org": "Independent Project",
+  "type": "Local Desktop App",
+  "tech": "Python \u00b7 Gemini API",
+  "date": "2026",
+  "summary": "Local AI-powered personal assistant that tracks your daily computer activity, remembers your tasks, and helps you plan your day. Powered entirely by the Gemini API for natural language reasoning.",
+  "highlights": [
+    "Activity tracking and contextual memory.",
+    "Task management and daily planning.",
+    "Deep integration with the Gemini API."
+  ],
+  "topics": [
+    "Python",
+    "AI Agents",
+    "Gemini"
+  ],
+  "links": {
+    "repo": "https://github.com/Druva07/ARIA"
+  },
+  "media": {
+    "images": [],
+    "video": [],
+    "docs": []
+  }
+}

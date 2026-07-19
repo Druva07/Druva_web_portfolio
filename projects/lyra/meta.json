@@ -1,0 +1,30 @@
+{
+  "slug": "lyra",
+  "index": 3,
+  "category": "AI/Software",
+  "title": "LYRA \u2014 Terminal AI",
+  "org": "Independent Project",
+  "type": "CLI Application",
+  "tech": "Python \u00b7 Gemini API",
+  "date": "2026",
+  "summary": "A JARVIS-inspired terminal AI with a British accent. Powered by Gemini, she listens, speaks, and controls your computer \u2014 all directly from the command line.",
+  "highlights": [
+    "Voice interaction with text-to-speech (TTS) and speech-to-text (STT).",
+    "Computer control and automation via terminal.",
+    "Context-aware conversational memory using Gemini."
+  ],
+  "topics": [
+    "Python",
+    "CLI",
+    "AI Agents",
+    "Voice"
+  ],
+  "links": {
+    "repo": "https://github.com/Druva07/LYRA"
+  },
+  "media": {
+    "images": [],
+    "video": [],
+    "docs": []
+  }
+}

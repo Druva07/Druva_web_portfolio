@@ -1,0 +1,30 @@
+{
+  "slug": "aria-web",
+  "index": 2,
+  "category": "AI/Software",
+  "title": "ARIA Web Dashboard",
+  "org": "Independent Project",
+  "type": "Full-stack Web App",
+  "tech": "React \u00b7 TypeScript \u00b7 FastAPI",
+  "date": "2026",
+  "summary": "A web-based extension of the ARIA AI personal assistant. Provides a React frontend and FastAPI backend to track daily computer activity, manage tasks, and help you plan your day.",
+  "highlights": [
+    "React and TypeScript frontend for responsive UI.",
+    "FastAPI backend for high-performance API routing.",
+    "Integrated with the Gemini API for intelligent task management."
+  ],
+  "topics": [
+    "TypeScript",
+    "React",
+    "FastAPI",
+    "Gemini"
+  ],
+  "links": {
+    "repo": "https://github.com/Druva07/ARIA_WEB"
+  },
+  "media": {
+    "images": [],
+    "video": [],
+    "docs": []
+  }
+}

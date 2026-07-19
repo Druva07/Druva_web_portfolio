@@ -1,84 +1,86 @@
 [
   {
-    "slug": "bzr4-tachometer",
+    "slug": "aria",
     "index": 1,
-    "category": "Embedded Systems",
-    "title": "BZR4 Tachometer PCB",
-    "org": "Formula Bharat",
-    "type": "Racecar Telemetry",
-    "tech": "CH32V003 \u00b7 Shift-Register LED",
-    "date": "2026",
-    "summary": "Designed and built a custom tachometer PCB for the BZR4 racecar using a CH32V003 microcontroller. It drives a shift-register LED array for real-time RPM visualization, improving driver feedback on the track.",
-    "highlights": [
-      "Custom PCB design and layout.",
-      "Optimized embedded C firmware for low-latency LED updates.",
-      "Integrated with CAN bus for vehicle telemetry."
-    ],
-    "topics": [
-      "PCB Design",
-      "CH32V003",
-      "Embedded C"
-    ],
-    "links": {
-      "repo": "https://github.com/yourusername/bzr4-tachometer"
-    },
-    "media": {
-      "images": [],
-      "video": [],
-      "docs": []
-    }
-  },
-  {
-    "slug": "ai-rover",
-    "index": 2,
-    "category": "Robotics",
-    "title": "AI Rover \u2014 Nav2 + YDLIDAR",
-    "org": "Independent Project",
-    "type": "Autonomous Vehicle",
-    "tech": "ROS2 \u00b7 Raspberry Pi 5 \u00b7 Nav2",
-    "date": "2025",
-    "summary": "Developed an autonomous rover capable of indoor navigation and obstacle avoidance using ROS2 Nav2. Integrated a YDLIDAR sensor for real-time SLAM and map generation.",
-    "highlights": [
-      "Configured Nav2 stack for differential drive kinematics.",
-      "Implemented YDLIDAR drivers for ROS2.",
-      "Achieved reliable point-to-point navigation in unstructured environments."
-    ],
-    "topics": [
-      "ROS2",
-      "SLAM",
-      "Path Planning"
-    ],
-    "links": {
-      "repo": "https://github.com/yourusername/ai-rover"
-    },
-    "media": {
-      "images": [],
-      "video": [],
-      "docs": []
-    }
-  },
-  {
-    "slug": "ai-assistant",
-    "index": 3,
     "category": "AI/Software",
-    "title": "LYRA-Style Terminal Assistant",
+    "title": "ARIA \u2014 AI Personal Assistant",
     "org": "Independent Project",
-    "type": "Developer Tool",
-    "tech": "Python \u00b7 LLMs",
-    "date": "2025",
-    "summary": "Created an AI-powered terminal assistant to automate complex workflows and shell commands. Features context-aware suggestions and local execution capabilities.",
+    "type": "Local Desktop App",
+    "tech": "Python \u00b7 Gemini API",
+    "date": "2026",
+    "summary": "Local AI-powered personal assistant that tracks your daily computer activity, remembers your tasks, and helps you plan your day. Powered entirely by the Gemini API for natural language reasoning.",
     "highlights": [
-      "Integrated with modern LLM APIs for natural language to shell command translation.",
-      "Built robust error handling and safety confirmation prompts.",
-      "Packaged as a simple CLI tool for daily use."
+      "Activity tracking and contextual memory.",
+      "Task management and daily planning.",
+      "Deep integration with the Gemini API."
     ],
     "topics": [
       "Python",
       "AI Agents",
-      "CLI"
+      "Gemini"
     ],
     "links": {
-      "repo": "https://github.com/yourusername/ai-terminal-assistant"
+      "repo": "https://github.com/Druva07/ARIA"
+    },
+    "media": {
+      "images": [],
+      "video": [],
+      "docs": []
+    }
+  },
+  {
+    "slug": "aria-web",
+    "index": 2,
+    "category": "AI/Software",
+    "title": "ARIA Web Dashboard",
+    "org": "Independent Project",
+    "type": "Full-stack Web App",
+    "tech": "React \u00b7 TypeScript \u00b7 FastAPI",
+    "date": "2026",
+    "summary": "A web-based extension of the ARIA AI personal assistant. Provides a React frontend and FastAPI backend to track daily computer activity, manage tasks, and help you plan your day.",
+    "highlights": [
+      "React and TypeScript frontend for responsive UI.",
+      "FastAPI backend for high-performance API routing.",
+      "Integrated with the Gemini API for intelligent task management."
+    ],
+    "topics": [
+      "TypeScript",
+      "React",
+      "FastAPI",
+      "Gemini"
+    ],
+    "links": {
+      "repo": "https://github.com/Druva07/ARIA_WEB"
+    },
+    "media": {
+      "images": [],
+      "video": [],
+      "docs": []
+    }
+  },
+  {
+    "slug": "lyra",
+    "index": 3,
+    "category": "AI/Software",
+    "title": "LYRA \u2014 Terminal AI",
+    "org": "Independent Project",
+    "type": "CLI Application",
+    "tech": "Python \u00b7 Gemini API",
+    "date": "2026",
+    "summary": "A JARVIS-inspired terminal AI with a British accent. Powered by Gemini, she listens, speaks, and controls your computer \u2014 all directly from the command line.",
+    "highlights": [
+      "Voice interaction with text-to-speech (TTS) and speech-to-text (STT).",
+      "Computer control and automation via terminal.",
+      "Context-aware conversational memory using Gemini."
+    ],
+    "topics": [
+      "Python",
+      "CLI",
+      "AI Agents",
+      "Voice"
+    ],
+    "links": {
+      "repo": "https://github.com/Druva07/LYRA"
     },
     "media": {
       "images": [],
