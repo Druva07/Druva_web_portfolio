@@ -1,4 +1,24 @@
+let revealObserver;
+
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize Intersection Observer for scroll animations
+  revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        revealObserver.unobserve(entry.target); // Reveal only once
+      }
+    });
+  }, {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  });
+
+  // Observe static elements already in the DOM
+  document.querySelectorAll('.reveal').forEach(el => {
+    revealObserver.observe(el);
+  });
+
   fetch('projects.json')
     .then(res => res.json())
     .then(data => {
@@ -61,7 +81,7 @@ function renderProjects(projects, filterCategory) {
   
   filtered.forEach(p => {
     const article = document.createElement('article');
-    article.className = 'project-card';
+    article.className = 'project-card reveal';
     
     // Formatting index as 01, 02...
     const idxStr = String(p.index).padStart(2, '0');
@@ -102,5 +122,6 @@ function renderProjects(projects, filterCategory) {
     `;
     
     container.appendChild(article);
+    if (revealObserver) revealObserver.observe(article);
   });
 }
